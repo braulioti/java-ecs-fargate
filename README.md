@@ -37,18 +37,18 @@
 - ~~Teste 5: AWS CDK~~
 
 ### Seção 6: Introdução ao AWS ECS com Fargate
-- Arquitetura com AWS ECS e Fargate
-- VPC - Virtual Private Cloud
-- Cluster
-- Teste 6: AWS ECS com Fargate
-- Task e Task Definition
-- Teste 7: Task e Task Definition do AWS ECS
-- Service
-- Teste 8: Gerenciamento das instâncias pelo Serviço
-- Auto Scaling
-- Teste 9: Sobre o auto-scaling
-- ALB - Application load balancer, target group e security group
-- Teste 10: Application Load Balancer
+- ~~Arquitetura com AWS ECS e Fargate~~
+- ~~VPC - Virtual Private Cloud~~
+- ~~Cluster~~
+- ~~Teste 6: AWS ECS com Fargate~~
+- ~~Task e Task Definition~~
+- ~~Teste 7: Task e Task Definition do AWS ECS~~
+- ~~Service~~
+- ~~Teste 8: Gerenciamento das instâncias pelo Serviço~~
+- ~~Auto Scaling~~
+- ~~Teste 9: Sobre o auto-scaling~~
+- ~~ALB - Application load balancer, target group e security group~~
+- ~~Teste 10: Application Load Balancer~~
 
 ### Seção 7: Deployment da aplicação no ECS com Fargate
 - Criação da stack na VPC
@@ -62,3 +62,13 @@
 - Sobre as cobranças na conta da AWS
 - Analisando as stack criadas no AWS CloudFormation
 - Teste 11: Stacks e suas dependências
+
+### Seção 8: Monitorando o serviço criado no AWS ECS
+- Gráficos de CPU e memória
+- Definição da tarefa
+- Service
+- Logs da aplicação no CloudWatch Insights
+- Teste 12: Vantagens do CloudWatch Insights
+- Criando e executando uma nova versão da aplicação
+- Tarefa 1: Criando e executando uma nova versão da aplicação
+- [OPCIONAL] Destruindo os recursos criados
