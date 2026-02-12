@@ -16,10 +16,10 @@
 - ~~Teste 2: Parâmetros e retornos de uma operação~~
 
 ### Seção 3: Executando a aplicação em um container Docker
-- Visão geral do Docker
-- Criando o repositório no Docker Hub
-- Preparando o projeto para gerar a imagem Docker
-- Executando a aplicação em container Docker no IntelliJ IDEA
+- ~~Visão geral do Docker~~
+- ~~Criando o repositório no Docker Hub~~
+- ~~Preparando o projeto para gerar a imagem Docker~~
+- ~~Executando a aplicação em container Docker no IntelliJ IDEA~~
 
 ### Seção 4: Introdução ao AWS CloudFormation
 - Introdução ao AWS CloudFormation
