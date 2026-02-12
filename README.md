@@ -7,13 +7,13 @@
 - ~~[OPCIONAL] Criação do alarme de cobrança~~
 
 ### Seção 2: Conceitos de Spring Boot
-- [OBRIGATÓRIO] Atualização de versões de bibliotecas
-- Criando o primeiro projeto
-- Projeto base com versão definida do Java e do Spring Boot
-- Abrindo o projeto no IntelliJ IDEA
-- Criando o primeiro endpoint REST
-- Teste 1: Anotações para criar um controller e um endpoint
-- Teste 2: Parâmetros e retornos de uma operação
+- ~~[OBRIGATÓRIO] Atualização de versões de bibliotecas~~
+- ~~Criando o primeiro projeto~~
+- ~~Projeto base com versão definida do Java e do Spring Boot~~
+- ~~Abrindo o projeto no IntelliJ IDEA~~
+- ~~Criando o primeiro endpoint REST~~
+- ~~Teste 1: Anotações para criar um controller e um endpoint~~
+- ~~Teste 2: Parâmetros e retornos de uma operação~~
 
 ### Seção 3: Executando a aplicação em um container Docker
 - Visão geral do Docker
