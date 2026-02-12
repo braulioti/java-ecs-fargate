@@ -22,11 +22,11 @@
 - ~~Executando a aplicação em container Docker no IntelliJ IDEA~~
 
 ### Seção 4: Introdução ao AWS CloudFormation
-- Introdução ao AWS CloudFormation
-- Analisando stacks, eventos, recursos e parâmetros
-- Teste 3: Stacks
-- Apagando uma stack
-- Teste 4: Excluindo uma stack
+- ~~Introdução ao AWS CloudFormation~~
+- ~~Analisando stacks, eventos, recursos e parâmetros~~
+- ~~Teste 3: Stacks~~
+- ~~Apagando uma stack~~
+- ~~Teste 4: Excluindo uma stack~~
 
 ### Seção 5: Introdução ao AWS CDK
 - Criação do usuário IAM para o AWS CDK
