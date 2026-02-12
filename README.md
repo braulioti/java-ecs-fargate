@@ -29,12 +29,12 @@
 - ~~Teste 4: Excluindo uma stack~~
 
 ### Seção 5: Introdução ao AWS CDK
-- Criação do usuário IAM para o AWS CDK
-- [OBRIGATÓRIO] - Migração para o AWS CDK 2.x
-- Instalação do AWS CDK
-- Criando o projeto com CDK
-- Entendendo a estrutura do projeto com CDK
-- Teste 5: AWS CDK
+- ~~Criação do usuário IAM para o AWS CDK~~
+- ~~[OBRIGATÓRIO] - Migração para o AWS CDK 2.x~~
+- ~~Instalação do AWS CDK~~
+- ~~Criando o projeto com CDK~~
+- ~~Entendendo a estrutura do projeto com CDK~~
+- ~~Teste 5: AWS CDK~~
 
 ### Seção 6: Introdução ao AWS ECS com Fargate
 - Arquitetura com AWS ECS e Fargate
@@ -49,3 +49,16 @@
 - Teste 9: Sobre o auto-scaling
 - ALB - Application load balancer, target group e security group
 - Teste 10: Application Load Balancer
+
+### Seção 7: Deployment da aplicação no ECS com Fargate
+- Criação da stack na VPC
+- [OPCIONAL] Reduzindo custos na criação da VPC
+- Criação da stack do cluster com AAWS CDK
+- Criação do application load balancer e demais recursos
+- [OPCIONAL] Definindo um IP público para a aplicação
+- Configuração do target group
+- Criação das regras de auto scaling
+- Deployment dos recursos com AWS CDK
+- Sobre as cobranças na conta da AWS
+- Analisando as stack criadas no AWS CloudFormation
+- Teste 11: Stacks e suas dependências
