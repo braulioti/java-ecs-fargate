@@ -51,17 +51,17 @@
 - ~~Teste 10: Application Load Balancer~~
 
 ### Seção 7: Deployment da aplicação no ECS com Fargate
-- Criação da stack na VPC
-- [OPCIONAL] Reduzindo custos na criação da VPC
-- Criação da stack do cluster com AAWS CDK
-- Criação do application load balancer e demais recursos
-- [OPCIONAL] Definindo um IP público para a aplicação
-- Configuração do target group
-- Criação das regras de auto scaling
-- Deployment dos recursos com AWS CDK
-- Sobre as cobranças na conta da AWS
-- Analisando as stack criadas no AWS CloudFormation
-- Teste 11: Stacks e suas dependências
+- ~~Criação da stack na VPC~~
+- ~~[OPCIONAL] Reduzindo custos na criação da VPC~~
+- ~~Criação da stack do cluster com AWS CDK~~
+- ~~Criação do application load balancer e demais recursos~~
+- ~~[OPCIONAL] Definindo um IP público para a aplicação~~
+- ~~Configuração do target group~~
+- ~~Criação das regras de auto scaling~~
+- ~~Deployment dos recursos com AWS CDK~~
+- ~~Sobre as cobranças na conta da AWS~~
+- ~~Analisando as stack criadas no AWS CloudFormation~~
+- ~~Teste 11: Stacks e suas dependências~~
 
 ### Seção 8: Monitorando o serviço criado no AWS ECS
 - Gráficos de CPU e memória
@@ -72,3 +72,9 @@
 - Criando e executando uma nova versão da aplicação
 - Tarefa 1: Criando e executando uma nova versão da aplicação
 - [OPCIONAL] Destruindo os recursos criados
+
+### Monitorrando o Application Load Balancer
+- Console do Application Load Balancer e suas métricas
+- Target Group e o Health Check
+- Security Group e as regras de segurança
+- Teste 13: Monitoramento da aplicação pelo ALB e target group
