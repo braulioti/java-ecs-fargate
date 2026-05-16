@@ -74,10 +74,10 @@
 - ~~[OPCIONAL] Destruindo os recursos criados~~
 
 ### Seção 9: Monitorando o Application Load Balancer
-- Console do Application Load Balancer e suas métricas
-- Target Group e o Health Check
-- Security Group e as regras de segurança
-- Teste 13: Monitoramento da aplicação pelo ALB e target group
+- ~~Console do Application Load Balancer e suas métricas~~
+- ~~Target Group e o Health Check~~
+- ~~Security Group e as regras de segurança~~
+- ~~Teste 13: Monitoramento da aplicação pelo ALB e target group~~
 
 ### Seção 10: Como funciona o processo de deployment de uma nova versão de aplicação
 - Preparando uma nova versão de aplicação
@@ -86,3 +86,18 @@
 - Monitoramento do target group das novas instâncias
 - Destruição das instâncias antigas
 - Teste 14: O trabalho do target group no processo de deployment de uma nova versão
+
+### Seção 11: Criação do CRUD de produtos utilizando AWS RDS com MySQL
+- Arquitetura da aplicação com AWS RDS
+- Criando a instância do RDS com AWS CDK
+- Tamanho da instância do RDS
+- [OPCIONAL] Configurando a instÇancia do RDS na sub-rede pública da VPC
+- Teste 15: Vantagens da utilização do AWS RDS
+- Configurando a aplicação para acessar o Banco de Dados
+- Criando o modelo de produtos
+- Criando o repositório de produtos
+- Criando o controller de produtos
+- Teste de controller de produtos com banco de dados local
+- Criando uma nova definição de tarefas do ECS para acessar o RDS
+- Testando o CRUD de produtos
+- Tarefa 2: Adicionando um novo campo na tabela de produtos
