@@ -20,4 +20,11 @@ public class TestController {
 
         return ResponseEntity.ok("Name: " + name);
     }
+
+    @GetMapping("/cat/{name}")
+    public ResponseEntity<?> dotCat(@PathVariable String name) {
+        logger.info("Test controller - Cat Name: {}", name);
+
+        return ResponseEntity.ok("Name: " + name);
+    }
 }

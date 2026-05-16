@@ -16,7 +16,7 @@
 	<url/>
 	<properties>
 		<java.version>25</java.version>
-		<project.version>1.0.0</project.version>
+		<project.version>1.1.0</project.version>
 		<actuator.version>4.0.2</actuator.version>
 	</properties>
 	<dependencies>

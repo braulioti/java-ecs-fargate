@@ -64,17 +64,25 @@
 - ~~Teste 11: Stacks e suas dependências~~
 
 ### Seção 8: Monitorando o serviço criado no AWS ECS
-- Gráficos de CPU e memória
-- Definição da tarefa
-- Service
-- Logs da aplicação no CloudWatch Insights
-- Teste 12: Vantagens do CloudWatch Insights
-- Criando e executando uma nova versão da aplicação
-- Tarefa 1: Criando e executando uma nova versão da aplicação
-- [OPCIONAL] Destruindo os recursos criados
+- ~~Gráficos de CPU e memória~~
+- ~~Definição da tarefa~~
+- ~~Service~~
+- ~~Logs da aplicação no CloudWatch Insights~~
+- ~~Teste 12: Vantagens do CloudWatch Insights~~
+- ~~Criando e executando uma nova versão da aplicação~~
+- ~~Tarefa 1: Criando e executando uma nova versão da aplicação~~
+- ~~[OPCIONAL] Destruindo os recursos criados~~
 
-### Monitorrando o Application Load Balancer
+### Seção 9: Monitorando o Application Load Balancer
 - Console do Application Load Balancer e suas métricas
 - Target Group e o Health Check
 - Security Group e as regras de segurança
 - Teste 13: Monitoramento da aplicação pelo ALB e target group
+
+### Seção 10: Como funciona o processo de deployment de uma nova versão de aplicação
+- Preparando uma nova versão de aplicação
+- Nova revisão da definição da tarefa
+- Atualização do service com a nova revisão da tarefa
+- Monitoramento do target group das novas instâncias
+- Destruição das instâncias antigas
+- Teste 14: O trabalho do target group no processo de deployment de uma nova versão
