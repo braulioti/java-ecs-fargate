@@ -101,3 +101,16 @@
 - Criando uma nova definição de tarefas do ECS para acessar o RDS
 - Testando o CRUD de produtos
 - Tarefa 2: Adicionando um novo campo na tabela de produtos
+
+### Seção 12: Publicando eventos de produtos com o AWS SNS
+- Arquitetura da aplicação com AWS SNS
+- Criando o tópico do SNS com AWS CDK
+- Configurando a aplicação para acessar o novo tópico
+- Criando os modelos para representar os eventos
+- Criando o serviço para publicar eventos no AWS SNS
+- Teste do publicador de eventos do SNS com LocalStack
+- Atribuindo a permissão à tarefa do ECS para acessar o SNS
+- Testando o envio de notificações pelo AWS SNS
+
+### Seção 21: Conclusão
+- ~~Conclusão~~
