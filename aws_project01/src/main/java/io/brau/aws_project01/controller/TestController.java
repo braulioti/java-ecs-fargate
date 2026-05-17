@@ -15,14 +15,21 @@ public class TestController {
     private static final Logger logger = LoggerFactory.getLogger(TestController.class);
 
     @GetMapping("/dog/{name}")
-    public ResponseEntity<?> dotTest(@PathVariable String name) {
+    public ResponseEntity<?> dogTest(@PathVariable String name) {
         logger.info("Test controller - name: {}", name);
 
         return ResponseEntity.ok("Name: " + name);
     }
 
+    @GetMapping("/dog/color")
+    public ResponseEntity<?> dogColorTest() {
+        logger.info("Test controller - Always Black");
+
+        return ResponseEntity.ok("Always Black");
+    }
+
     @GetMapping("/cat/{name}")
-    public ResponseEntity<?> dotCat(@PathVariable String name) {
+    public ResponseEntity<?> catTest(@PathVariable String name) {
         logger.info("Test controller - Cat Name: {}", name);
 
         return ResponseEntity.ok("Name: " + name);

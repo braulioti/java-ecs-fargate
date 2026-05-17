@@ -80,12 +80,12 @@
 - ~~Teste 13: Monitoramento da aplicação pelo ALB e target group~~
 
 ### Seção 10: Como funciona o processo de deployment de uma nova versão de aplicação
-- Preparando uma nova versão de aplicação
-- Nova revisão da definição da tarefa
-- Atualização do service com a nova revisão da tarefa
-- Monitoramento do target group das novas instâncias
-- Destruição das instâncias antigas
-- Teste 14: O trabalho do target group no processo de deployment de uma nova versão
+- ~~Preparando uma nova versão de aplicação~~
+- ~~Nova revisão da definição da tarefa~~
+- ~~Atualização do service com a nova revisão da tarefa~~
+- ~~Monitoramento do target group das novas instâncias~~
+- ~~Destruição das instâncias antigas~~
+- ~~Teste 14: O trabalho do target group no processo de deployment de uma nova versão~~
 
 ### Seção 11: Criação do CRUD de produtos utilizando AWS RDS com MySQL
 - Arquitetura da aplicação com AWS RDS
