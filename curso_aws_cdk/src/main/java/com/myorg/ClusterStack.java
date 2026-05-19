@@ -16,7 +16,7 @@ public class ClusterStack extends Stack {
     public ClusterStack(final Construct scope, final String id, final StackProps props, Vpc vpc) {
         super(scope, id, props);
 
-        Cluster.Builder.create(this, "Vpc01")
+        cluster = Cluster.Builder.create(this, "Vpc01")
                 .clusterName("cluster-01")
                 .vpc(vpc)
                 .build();

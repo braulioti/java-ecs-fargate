@@ -88,19 +88,19 @@
 - ~~Teste 14: O trabalho do target group no processo de deployment de uma nova versão~~
 
 ### Seção 11: Criação do CRUD de produtos utilizando AWS RDS com MySQL
-- Arquitetura da aplicação com AWS RDS
-- Criando a instância do RDS com AWS CDK
-- Tamanho da instância do RDS
-- [OPCIONAL] Configurando a instÇancia do RDS na sub-rede pública da VPC
-- Teste 15: Vantagens da utilização do AWS RDS
-- Configurando a aplicação para acessar o Banco de Dados
-- Criando o modelo de produtos
-- Criando o repositório de produtos
-- Criando o controller de produtos
-- Teste de controller de produtos com banco de dados local
-- Criando uma nova definição de tarefas do ECS para acessar o RDS
-- Testando o CRUD de produtos
-- Tarefa 2: Adicionando um novo campo na tabela de produtos
+- ~~Arquitetura da aplicação com AWS RDS~~
+- ~~Criando a instância do RDS com AWS CDK~~
+- ~~Tamanho da instância do RDS~~
+- ~~[OPCIONAL] Configurando a instÇancia do RDS na sub-rede pública da VPC~~
+- ~~Teste 15: Vantagens da utilização do AWS RDS~~
+- ~~Configurando a aplicação para acessar o Banco de Dados~~
+- ~~Criando o modelo de produtos~~
+- ~~Criando o repositório de produtos~~
+- ~~Criando o controller de produtos~~
+- ~~Teste de controller de produtos com banco de dados local~~
+- ~~Criando uma nova definição de tarefas do ECS para acessar o RDS~~
+- ~~Testando o CRUD de produtos~~
+- ~~Tarefa 2: Adicionando um novo campo na tabela de produtos~~
 
 ### Seção 12: Publicando eventos de produtos com o AWS SNS
 - Arquitetura da aplicação com AWS SNS
@@ -111,6 +111,29 @@
 - Teste do publicador de eventos do SNS com LocalStack
 - Atribuindo a permissão à tarefa do ECS para acessar o SNS
 - Testando o envio de notificações pelo AWS SNS
+
+### Seção 13: Publicando eventos de produtos com AWS SNS
+- Arquitetura da nova aplicação
+- Tarefa 3: Criando o novo projeto com o Spring Boot Initializr
+- Tarefa 4: Criando o repositório Docker Hub e preparando o projeto para gerar a imagem
+- Tarefa 5: Criando a infraestrutura da segunda aplicação com AWS CDK
+- [OPCIONAL] - Definindo um IP público para a instância da aplicação
+- Verificando a infraestrutura da aplicação
+- Teste 16: Application Load Balancer e target groups
+- Teste 17: Vantagens e desvantagens de se ter apenas um Application Load Balancer
+
+### Seção 14: Construindo os eventos de produtos com AWS SQS
+- Arquitetura da aplicação com AWS SQS
+- Criando a nova fila e inscrevendo-a no tópico com AWS CDK
+- Desabilitando o acesso criptografados à fila do SQS
+- Configurando a aplicação para acessar a nova fila
+- Criando os modelos que representam os eventos
+- Consumindo os eventos de produso do AWS SQS com JMS
+- Teste do consumidor do SQD com LocalStack
+- Atribuindo a permissão à tarefa do ECS para acessar a fila através do AWS CDK
+- Testando o consumidor de eventos de produtos
+- Entendendo as métricas e gráficos de SQS
+- Tarefa 6: Rastreando os logs entre as duas aplicações
 
 ### Seção 21: Conclusão
 - ~~Conclusão~~
