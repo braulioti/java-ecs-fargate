@@ -103,14 +103,14 @@
 - ~~Tarefa 2: Adicionando um novo campo na tabela de produtos~~
 
 ### Seção 12: Publicando eventos de produtos com o AWS SNS
-- Arquitetura da aplicação com AWS SNS
-- Criando o tópico do SNS com AWS CDK
-- Configurando a aplicação para acessar o novo tópico
-- Criando os modelos para representar os eventos
-- Criando o serviço para publicar eventos no AWS SNS
-- Teste do publicador de eventos do SNS com LocalStack
-- Atribuindo a permissão à tarefa do ECS para acessar o SNS
-- Testando o envio de notificações pelo AWS SNS
+- ~~Arquitetura da aplicação com AWS SNS~~
+- ~~Criando o tópico do SNS com AWS CDK~~
+- ~~Configurando a aplicação para acessar o novo tópico~~
+- ~~Criando os modelos para representar os eventos~~
+- ~~Criando o serviço para publicar eventos no AWS SNS~~
+- ~~Teste do publicador de eventos do SNS com LocalStack~~
+- ~~Atribuindo a permissão à tarefa do ECS para acessar o SNS~~
+- ~~Testando o envio de notificações pelo AWS SNS~~
 
 ### Seção 13: Publicando eventos de produtos com AWS SNS
 - Arquitetura da nova aplicação
@@ -134,6 +134,18 @@
 - Testando o consumidor de eventos de produtos
 - Entendendo as métricas e gráficos de SQS
 - Tarefa 6: Rastreando os logs entre as duas aplicações
+
+### Seção 15: Persistindo os eventos de produtos no DynamoDB
+- Arquitetura da aplicação com AWS DynamoDB
+- Criando a tabela do DynamoDB com AWS CDK
+- Configurando a aplicação para acessar a tabela no DynamoDB
+- Criando o modelo de evento de produto
+- Criando o repositório de evento de produto
+- Persistindo os eventos de produtos
+- Atribuindo a permissão à tarefa do ECS para acessar a tabela do DynamoDB
+- Visualizando os eventos de produtos no console do DynamoDB
+- Entendendo as métricas e gráficos do DynamoDB
+- Teste 18: Tabelas do DynamoDB
 
 ### Seção 21: Conclusão
 - ~~Conclusão~~

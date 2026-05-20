@@ -1,7 +1,9 @@
 package io.brau.aws_project01.controller;
 
+import io.brau.aws_project01.enums.EventType;
 import io.brau.aws_project01.model.Product;
 import io.brau.aws_project01.repository.ProductRepository;
+import io.brau.aws_project01.service.ProductPublisher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,10 +16,15 @@ import java.util.Optional;
 public class ProductController {
 
     private final ProductRepository productRepository;
+    private final ProductPublisher productPublisher;
 
     @Autowired
-    public ProductController(ProductRepository productRepository) {
+    public ProductController(
+            ProductRepository productRepository,
+            ProductPublisher productPublisher
+    ) {
         this.productRepository = productRepository;
+        this.productPublisher = productPublisher;
     }
 
     @GetMapping
@@ -34,6 +41,8 @@ public class ProductController {
     @PostMapping
     public ResponseEntity<Product> save(@RequestBody Product product) {
         Product productCreated = productRepository.save(product);
+
+        productPublisher.publishProductEvent(productCreated, EventType.PRODUCT_CREATED, "matilde");
         return new ResponseEntity<>(productCreated, HttpStatus.CREATED);
     }
 
@@ -44,6 +53,8 @@ public class ProductController {
     ) {
         if (productRepository.existsById(id)) {
             Product productUpdated = productRepository.save(product);
+
+            productPublisher.publishProductEvent(productUpdated, EventType.PRODUCT_UPDATED, "doralice");
             return new ResponseEntity<>(productUpdated, HttpStatus.OK);
         } else {
             return ResponseEntity.notFound().build();
@@ -55,6 +66,8 @@ public class ProductController {
         Optional<Product> optProduct = productRepository.findById(id);
         if (optProduct.isPresent()) {
             Product productToDelete = optProduct.get();
+
+            productPublisher.publishProductEvent(productToDelete, EventType.PRODUCT_DELETED, "hannah");
             productRepository.delete(productToDelete);
             return new ResponseEntity<>(productToDelete, HttpStatus.OK);
         } else {

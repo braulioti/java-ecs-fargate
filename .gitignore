@@ -34,3 +34,10 @@ build/
 
 ### CloudFormation ###
 curso_aws_cdk/cdk.out
+
+### LocalStack ###
+scripts/localstack.env
+scripts/init-localstack.bat
+
+### Credenciais locais do Spring ###
+aws_project01/src/main/resources/application-local.yml
