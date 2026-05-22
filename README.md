@@ -113,14 +113,14 @@
 - ~~Testando o envio de notificações pelo AWS SNS~~
 
 ### Seção 13: Publicando eventos de produtos com AWS SNS
-- Arquitetura da nova aplicação
-- Tarefa 3: Criando o novo projeto com o Spring Boot Initializr
-- Tarefa 4: Criando o repositório Docker Hub e preparando o projeto para gerar a imagem
-- Tarefa 5: Criando a infraestrutura da segunda aplicação com AWS CDK
-- [OPCIONAL] - Definindo um IP público para a instância da aplicação
-- Verificando a infraestrutura da aplicação
-- Teste 16: Application Load Balancer e target groups
-- Teste 17: Vantagens e desvantagens de se ter apenas um Application Load Balancer
+- ~~Arquitetura da nova aplicação~~
+- ~~Tarefa 3: Criando o novo projeto com o Spring Boot Initializr~~
+- ~~Tarefa 4: Criando o repositório Docker Hub e preparando o projeto para gerar a imagem~~
+- ~~Tarefa 5: Criando a infraestrutura da segunda aplicação com AWS CDK~~
+- ~~[OPCIONAL] - Definindo um IP público para a instância da aplicação~~
+- ~~Verificando a infraestrutura da aplicação~~
+- ~~Teste 16: Application Load Balancer e target groups~~
+- ~~Teste 17: Vantagens e desvantagens de se ter apenas um Application Load Balancer~~
 
 ### Seção 14: Construindo os eventos de produtos com AWS SQS
 - Arquitetura da aplicação com AWS SQS
