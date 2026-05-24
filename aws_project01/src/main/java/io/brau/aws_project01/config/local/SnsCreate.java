@@ -1,17 +1,14 @@
 package io.brau.aws_project01.config.local;
 
 import com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
-import com.amazonaws.auth.RegionAwareSigner;
 import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.sns.AmazonSNS;
 import com.amazonaws.services.sns.AmazonSNSClient;
-import com.amazonaws.services.sns.AmazonSNSClientBuilder;
 import com.amazonaws.services.sns.model.CreateTopicRequest;
 import com.amazonaws.services.sns.model.Topic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;

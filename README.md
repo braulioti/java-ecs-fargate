@@ -123,17 +123,17 @@
 - ~~Teste 17: Vantagens e desvantagens de se ter apenas um Application Load Balancer~~
 
 ### Seção 14: Construindo os eventos de produtos com AWS SQS
-- Arquitetura da aplicação com AWS SQS
-- Criando a nova fila e inscrevendo-a no tópico com AWS CDK
-- Desabilitando o acesso criptografados à fila do SQS
-- Configurando a aplicação para acessar a nova fila
-- Criando os modelos que representam os eventos
-- Consumindo os eventos de produso do AWS SQS com JMS
-- Teste do consumidor do SQD com LocalStack
-- Atribuindo a permissão à tarefa do ECS para acessar a fila através do AWS CDK
-- Testando o consumidor de eventos de produtos
-- Entendendo as métricas e gráficos de SQS
-- Tarefa 6: Rastreando os logs entre as duas aplicações
+- ~~Arquitetura da aplicação com AWS SQS~~
+- ~~Criando a nova fila e inscrevendo-a no tópico com AWS CDK~~
+- ~~Desabilitando o acesso criptografados à fila do SQS~~
+- ~~Configurando a aplicação para acessar a nova fila~~
+- ~~Criando os modelos que representam os eventos~~
+- ~~Consumindo os eventos de produso do AWS SQS com JMS~~
+- ~~Teste do consumidor do SQS com LocalStack~~
+- ~~Atribuindo a permissão à tarefa do ECS para acessar a fila através do AWS CDK~~
+- ~~Testando o consumidor de eventos de produtos~~
+- ~~Entendendo as métricas e gráficos de SQS~~
+- ~~Tarefa 6: Rastreando os logs entre as duas aplicações~~
 
 ### Seção 15: Persistindo os eventos de produtos no DynamoDB
 - Arquitetura da aplicação com AWS DynamoDB
@@ -146,6 +146,24 @@
 - Visualizando os eventos de produtos no console do DynamoDB
 - Entendendo as métricas e gráficos do DynamoDB
 - Teste 18: Tabelas do DynamoDB
+
+### Seção 16: Criando um controller para buscar os eventos de produtos
+- Criando o novo controller
+- Buscando eventos pelo código do produto e tipo
+- Teste local do DynamoDB com LocalStack
+- Testando o novo controller com o Postman
+- Teste 7: Adicionando o messageId na tabela de eventos do DynamoDB
+
+### Seção 17: Preparando para os testes de carga
+- Criando a coleção no Postman
+- Executando o teste de carga
+- Verificando os gráficos de consumo de recursos
+- Analisando os gráficos do DynamoDB
+
+### Seção 18: Configurando o auto scaling da tabela do DynamoDB com AWS CDK
+- Alterando as configurações da tabela do DDB para ligar o autoscaling
+- Gerando tráfego para testar o autoscaling da tabela do DDB
+- Analisando os gráficos e métricas da tabela do DDB
 
 ### Seção 21: Conclusão
 - ~~Conclusão~~
