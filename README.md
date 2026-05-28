@@ -136,16 +136,16 @@
 - ~~Tarefa 6: Rastreando os logs entre as duas aplicações~~
 
 ### Seção 15: Persistindo os eventos de produtos no DynamoDB
-- Arquitetura da aplicação com AWS DynamoDB
-- Criando a tabela do DynamoDB com AWS CDK
-- Configurando a aplicação para acessar a tabela no DynamoDB
-- Criando o modelo de evento de produto
-- Criando o repositório de evento de produto
-- Persistindo os eventos de produtos
-- Atribuindo a permissão à tarefa do ECS para acessar a tabela do DynamoDB
-- Visualizando os eventos de produtos no console do DynamoDB
-- Entendendo as métricas e gráficos do DynamoDB
-- Teste 18: Tabelas do DynamoDB
+- ~~Arquitetura da aplicação com AWS DynamoDB~~
+- ~~Criando a tabela do DynamoDB com AWS CDK~~
+- ~~Configurando a aplicação para acessar a tabela no DynamoDB~~
+- ~~Criando o modelo de evento de produto~~
+- ~~Criando o repositório de evento de produto~~
+- ~~Persistindo os eventos de produtos~~
+- ~~Atribuindo a permissão à tarefa do ECS para acessar a tabela do DynamoDB~~
+- ~~Visualizando os eventos de produtos no console do DynamoDB~~
+- ~~Entendendo as métricas e gráficos do DynamoDB~~
+- ~~Teste 18: Tabelas do DynamoDB~~
 
 ### Seção 16: Criando um controller para buscar os eventos de produtos
 - Criando o novo controller
@@ -164,6 +164,24 @@
 - Alterando as configurações da tabela do DDB para ligar o autoscaling
 - Gerando tráfego para testar o autoscaling da tabela do DDB
 - Analisando os gráficos e métricas da tabela do DDB
+
+### Seção 19: Configurando a tabela do DynamoDB para on demand
+- Alterando a tabela do DynamoDB para on demand
+- Repetindo o teste de carga
+- Analisando os gráficos de consumo de capacidades do DynamoDB
+ 
+### Seção 20: Importando arquivos com o AWS S3
+- O que é o AWS Simple Storage Service S3?
+- Arquitetura da aplicação com AWS S3
+- Criando o bucket no S3, SNS e SQS com o AWS CDK
+- Configurando a aplicação para acessar o bucket
+- Configurando a aplicação para acessar o SQS
+- Criando o modelo para solicitar a URL pré-assinada
+- Criando o controller para solicitar para a URL pré-assinada
+- Criando os modelos para importar os arquivos
+- Criando o consumidor de eventos do S3
+- Criando as operações de pesquisa de notas fiscais
+- Teste local
 
 ### Seção 21: Conclusão
 - ~~Conclusão~~
