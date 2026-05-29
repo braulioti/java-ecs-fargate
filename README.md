@@ -155,10 +155,10 @@
 - ~~Teste 7: Adicionando o messageId na tabela de eventos do DynamoDB~~
 
 ### Seção 17: Preparando para os testes de carga
-- Criando a coleção no Postman
-- Executando o teste de carga
-- Verificando os gráficos de consumo de recursos
-- Analisando os gráficos do DynamoDB
+- ~~Criando a coleção no Postman~~
+- ~~Executando o teste de carga~~
+- ~~Verificando os gráficos de consumo de recursos~~
+- ~~Analisando os gráficos do DynamoDB~~
 
 ### Seção 18: Configurando o auto scaling da tabela do DynamoDB com AWS CDK
 - Alterando as configurações da tabela do DDB para ligar o autoscaling
