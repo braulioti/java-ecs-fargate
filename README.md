@@ -161,9 +161,9 @@
 - ~~Analisando os gráficos do DynamoDB~~
 
 ### Seção 18: Configurando o auto scaling da tabela do DynamoDB com AWS CDK
-- Alterando as configurações da tabela do DDB para ligar o autoscaling
-- Gerando tráfego para testar o autoscaling da tabela do DDB
-- Analisando os gráficos e métricas da tabela do DDB
+- ~~Alterando as configurações da tabela do DDB para ligar o autoscaling~~
+- ~~Gerando tráfego para testar o autoscaling da tabela do DDB~~
+- ~~Analisando os gráficos e métricas da tabela do DDB~~
 
 ### Seção 19: Configurando a tabela do DynamoDB para on demand
 - Alterando a tabela do DynamoDB para on demand
