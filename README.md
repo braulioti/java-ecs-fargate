@@ -148,11 +148,11 @@
 - ~~Teste 18: Tabelas do DynamoDB~~
 
 ### Seção 16: Criando um controller para buscar os eventos de produtos
-- Criando o novo controller
-- Buscando eventos pelo código do produto e tipo
-- Teste local do DynamoDB com LocalStack
-- Testando o novo controller com o Postman
-- Teste 7: Adicionando o messageId na tabela de eventos do DynamoDB
+- ~~Criando o novo controller~~
+- ~~Buscando eventos pelo código do produto e tipo~~
+- ~~Teste local do DynamoDB com LocalStack~~
+- ~~Testando o novo controller com o Postman~~
+- ~~Teste 7: Adicionando o messageId na tabela de eventos do DynamoDB~~
 
 ### Seção 17: Preparando para os testes de carga
 - Criando a coleção no Postman

@@ -2,6 +2,7 @@ package io.brau.aws_project02.repository;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBQueryExpression;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBScanExpression;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
 import com.amazonaws.services.dynamodbv2.model.ComparisonOperator;
 import com.amazonaws.services.dynamodbv2.model.Condition;
@@ -22,6 +23,10 @@ public class ProductEventLogRepository {
     public ProductEventLog save(ProductEventLog productEventLog) {
         dynamoDBMapper.save(productEventLog);
         return productEventLog;
+    }
+
+    public Iterable<ProductEventLog> findAll() {
+        return dynamoDBMapper.scan(ProductEventLog.class, new DynamoDBScanExpression());
     }
 
     public List<ProductEventLog> findAllByPk(String code) {

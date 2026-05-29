@@ -16,9 +16,10 @@
 	<url/>
 	<properties>
 		<java.version>25</java.version>
-		<project.version>1.6.0</project.version>
+		<project.version>1.7.0</project.version>
 		<actuator.version>4.0.2</actuator.version>
 		<aws-java-sdk.version>1.12.780</aws-java-sdk.version>
+		<aws-sdk.version>2.29.24</aws-sdk.version>
 		<amazon-sqs-java-messaging-lib.version>2.1.4</amazon-sqs-java-messaging-lib.version>
 	</properties>
 	<dependencyManagement>
@@ -52,6 +53,11 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-dynamodb</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>dynamodb</artifactId>
+			<version>${aws-sdk.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
