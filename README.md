@@ -166,9 +166,9 @@
 - ~~Analisando os gráficos e métricas da tabela do DDB~~
 
 ### Seção 19: Configurando a tabela do DynamoDB para on demand
-- Alterando a tabela do DynamoDB para on demand
-- Repetindo o teste de carga
-- Analisando os gráficos de consumo de capacidades do DynamoDB
+- ~~Alterando a tabela do DynamoDB para on demand~~
+- ~~Repetindo o teste de carga~~
+- ~~Analisando os gráficos de consumo de capacidades do DynamoDB~~
  
 ### Seção 20: Importando arquivos com o AWS S3
 - O que é o AWS Simple Storage Service S3?
