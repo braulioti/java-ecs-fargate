@@ -16,9 +16,10 @@
 	<url/>
 	<properties>
 		<java.version>25</java.version>
-		<project.version>1.6.0</project.version>
+		<project.version>1.7.0</project.version>
 		<actuator.version>4.0.2</actuator.version>
 		<aws-java-sdk.version>1.12.780</aws-java-sdk.version>
+		<amazon-sqs-java-messaging-lib.version>2.1.4</amazon-sqs-java-messaging-lib.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -69,6 +70,23 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 			<version>${actuator.version}</version>
 			<scope>compile</scope>
+		</dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-s3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>amazon-sqs-java-messaging-lib</artifactId>
+			<version>${amazon-sqs-java-messaging-lib.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
 		</dependency>
 	</dependencies>
 

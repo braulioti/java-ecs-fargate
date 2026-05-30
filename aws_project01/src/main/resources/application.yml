@@ -23,6 +23,15 @@ management:
 
 aws:
   region: us-east-1
+  s3:
+    bucket:
+      invoice:
+        name: pcs01-braulio-invoice
+  sqs:
+    queue:
+      invoice:
+        events:
+          name: s3-invoice-events
   sns:
     topic:
       product:

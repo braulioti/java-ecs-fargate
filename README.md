@@ -171,17 +171,19 @@
 - ~~Analisando os gráficos de consumo de capacidades do DynamoDB~~
  
 ### Seção 20: Importando arquivos com o AWS S3
-- O que é o AWS Simple Storage Service S3?
-- Arquitetura da aplicação com AWS S3
-- Criando o bucket no S3, SNS e SQS com o AWS CDK
-- Configurando a aplicação para acessar o bucket
-- Configurando a aplicação para acessar o SQS
-- Criando o modelo para solicitar a URL pré-assinada
-- Criando o controller para solicitar para a URL pré-assinada
-- Criando os modelos para importar os arquivos
-- Criando o consumidor de eventos do S3
-- Criando as operações de pesquisa de notas fiscais
-- Teste local
+- ~~O que é o AWS Simple Storage Service S3?~~
+- ~~Arquitetura da aplicação com AWS S3~~
+- ~~Criando o bucket no S3, SNS e SQS com o AWS CDK~~
+- ~~Configurando a aplicação para acessar o bucket~~
+- ~~Configurando a aplicação para acessar o SQS~~
+- ~~Criando o modelo para solicitar a URL pré-assinada~~
+- ~~Criando o controller para solicitar para a URL pré-assinada~~
+- ~~Criando os modelos para importar os arquivos~~
+- ~~Criando o consumidor de eventos do S3~~
+- ~~Criando as operações de pesquisa de notas fiscais~~
+- ~~Teste local do S3 com LocalStack~~
+- ~~Atribuindo a permissão à tarefa do ECS para acessar o SQS e o S3~~
+- ~~Testando a importação de arquivos no S3~~
 
 ### Seção 21: Conclusão
 - ~~Conclusão~~
